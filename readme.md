@@ -29,17 +29,23 @@ You can also use the Linux method if you have Git installed on Windows.
 #### Linux (Debian, Ubuntu, Mint)
 **System update**
 `sudo apt update && sudo apt upgrade`
+
 **Installing Git**
 `sudo apt install git`
+
 **Checking that Git is installed**
 `git --version`
+
 **Cloning a repository**
 `git clone https://github.com/NeWulla/DarkRP-Mod-Maker.git`
+
 **Go to the project folder**
 `cd DarkRP-Mod-Maker`
+
 ### Any other questions?
 ##### Contact with me:
 ***Telegram:*** https://t.me/d589303 / @d589303
+
 ***Discord:*** Amalgama#4262
 
 ![followers](https://img.shields.io/github/followers/NeWulla) ![forks](https://img.shields.io/github/forks/NeWulla/DarkRP-Mod-Maker) ![code](https://img.shields.io/github/languages/top/NeWulla/DarkRP-Mod-Maker)
