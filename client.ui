@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Client</class>
+ <widget class="QMainWindow" name="Client">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1150</width>
+    <height>750</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Client</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <property name="movable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="tabAgendas">
+       <attribute name="title">
+        <string>Agendas</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QScrollArea" name="scrollArea">
+          <property name="frameShadow">
+           <enum>QFrame::Sunken</enum>
+          </property>
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="scrollAreaWidgetContents">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>1108</width>
+             <height>661</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="pageAgendas">
+            <item>
+             <layout class="QGridLayout" name="gridAgendas"/>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tabAmmo">
+       <attribute name="title">
+        <string>Ammo</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <widget class="QScrollArea" name="scrollArea_2">
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="scrollAreaWidgetContents_2">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>1108</width>
+             <height>661</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="pageAmmo">
+            <item>
+             <layout class="QGridLayout" name="gridAmmo"/>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tabCategories">
+       <attribute name="title">
+        <string>Categories</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <widget class="QScrollArea" name="scrollArea_3">
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="scrollAreaWidgetContents_3">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>1108</width>
+             <height>661</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="pageCategories">
+            <item>
+             <layout class="QGridLayout" name="gridCategories"/>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tabDemoteGroups">
+       <attribute name="title">
+        <string>Demote groups</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_5">
+        <item>
+         <widget class="QScrollArea" name="scrollArea_4">
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="scrollAreaWidgetContents_4">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>1108</width>
+             <height>661</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="pageDemoteGroups">
+            <item>
+             <layout class="QGridLayout" name="gridDemoteGroups"/>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tabDoorGroups">
+       <attribute name="title">
+        <string>Door groups</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_6">
+        <item>
+         <widget class="QScrollArea" name="scrollArea_5">
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="scrollAreaWidgetContents_5">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>1108</width>
+             <height>661</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="pageDoorGroups">
+            <item>
+             <layout class="QGridLayout" name="gridDoorGroups"/>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tabEntities">
+       <attribute name="title">
+        <string>Entities</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_7">
+        <item>
+         <widget class="QScrollArea" name="scrollArea_6">
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="scrollAreaWidgetContents_6">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>1108</width>
+             <height>661</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="pageEntities">
+            <item>
+             <layout class="QGridLayout" name="gridEntities"/>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tabFood">
+       <attribute name="title">
+        <string>Food</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_8">
+        <item>
+         <widget class="QScrollArea" name="scrollArea_7">
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="scrollAreaWidgetContents_7">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>1108</width>
+             <height>661</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="pageFood">
+            <item>
+             <layout class="QGridLayout" name="gridFood"/>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tabGroupChats">
+       <attribute name="title">
+        <string>Group chats</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_9">
+        <item>
+         <widget class="QScrollArea" name="scrollArea_8">
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="scrollAreaWidgetContents_8">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>1108</width>
+             <height>661</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="pageGroupChats">
+            <item>
+             <layout class="QGridLayout" name="gridGroupChats"/>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tabJobs">
+       <attribute name="title">
+        <string>Jobs</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_10">
+        <item>
+         <widget class="QScrollArea" name="scrollArea_9">
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="scrollAreaWidgetContents_9">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>1108</width>
+             <height>661</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="pageJobs">
+            <item>
+             <layout class="QGridLayout" name="gridJobs"/>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tabShipments">
+       <attribute name="title">
+        <string>Shipments</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_11">
+        <item>
+         <widget class="QScrollArea" name="scrollArea_10">
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="scrollAreaWidgetContents_10">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>1108</width>
+             <height>661</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="pageShipments">
+            <item>
+             <layout class="QGridLayout" name="gridShipments"/>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tabVehicles">
+       <attribute name="title">
+        <string>Vehicles</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_12">
+        <item>
+         <widget class="QScrollArea" name="scrollArea_11">
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="scrollAreaWidgetContents_11">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>1108</width>
+             <height>661</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="pageVehicles">
+            <item>
+             <layout class="QGridLayout" name="gridVehicles"/>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1150</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionNew"/>
+    <addaction name="actionClose"/>
+    <addaction name="separator"/>
+    <addaction name="actionExport_all"/>
+    <addaction name="actionExport_current"/>
+    <addaction name="separator"/>
+    <addaction name="actionSave_current"/>
+    <addaction name="actionSave_all"/>
+    <addaction name="actionOpen"/>
+   </widget>
+   <widget class="QMenu" name="menuSettings">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <addaction name="actionSettings"/>
+   </widget>
+   <widget class="QMenu" name="menuWindow">
+    <property name="title">
+     <string>Window</string>
+    </property>
+    <addaction name="actionViewer"/>
+    <addaction name="actionLogs"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuSettings"/>
+   <addaction name="menuWindow"/>
+  </widget>
+  <action name="actionNew">
+   <property name="icon">
+    <iconset resource="resources/resources.qrc">
+     <normaloff>:/silk/silk/page_white_add.png</normaloff>:/silk/silk/page_white_add.png</iconset>
+   </property>
+   <property name="text">
+    <string>New</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="actionClose">
+   <property name="icon">
+    <iconset resource="resources/resources.qrc">
+     <normaloff>:/silk/silk/cross.png</normaloff>:/silk/silk/cross.png</iconset>
+   </property>
+   <property name="text">
+    <string>Close</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="actionExport_all">
+   <property name="icon">
+    <iconset resource="resources/resources.qrc">
+     <normaloff>:/silk/silk/package_go.png</normaloff>:/silk/silk/package_go.png</iconset>
+   </property>
+   <property name="text">
+    <string>Export all</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+E</string>
+   </property>
+  </action>
+  <action name="actionExport_current">
+   <property name="icon">
+    <iconset resource="resources/resources.qrc">
+     <normaloff>:/silk/silk/tab_go.png</normaloff>:/silk/silk/tab_go.png</iconset>
+   </property>
+   <property name="text">
+    <string>Export current</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+E</string>
+   </property>
+  </action>
+  <action name="actionSettings">
+   <property name="icon">
+    <iconset resource="resources/resources.qrc">
+     <normaloff>:/silk/silk/cog.png</normaloff>:/silk/silk/cog.png</iconset>
+   </property>
+   <property name="text">
+    <string>Settings</string>
+   </property>
+   <property name="toolTip">
+    <string>Settings</string>
+   </property>
+  </action>
+  <action name="actionSave_current">
+   <property name="icon">
+    <iconset resource="resources/resources.qrc">
+     <normaloff>:/silk/silk/disk.png</normaloff>:/silk/silk/disk.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save current</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionSave_all">
+   <property name="icon">
+    <iconset resource="resources/resources.qrc">
+     <normaloff>:/silk/silk/disk_multiple.png</normaloff>:/silk/silk/disk_multiple.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save all</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+S</string>
+   </property>
+  </action>
+  <action name="actionOpen">
+   <property name="icon">
+    <iconset resource="resources/resources.qrc">
+     <normaloff>:/silk/silk/page_white_put.png</normaloff>:/silk/silk/page_white_put.png</iconset>
+   </property>
+   <property name="text">
+    <string>Open</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionViewer">
+   <property name="text">
+    <string>Viewer</string>
+   </property>
+   <property name="shortcut">
+    <string>Shift+V</string>
+   </property>
+  </action>
+  <action name="actionLogs">
+   <property name="text">
+    <string>Logs</string>
+   </property>
+   <property name="shortcut">
+    <string>Shift+L</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="resources/resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

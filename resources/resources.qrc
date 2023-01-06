@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/silk">
+        <file>silk/script_edit.png</file>
+        <file>silk/basket.png</file>
+        <file>silk/bomb.png</file>
+        <file>silk/box.png</file>
+        <file>silk/cake.png</file>
+        <file>silk/car.png</file>
+        <file>silk/comments.png</file>
+        <file>silk/door.png</file>
+        <file>silk/folder.png</file>
+        <file>silk/table.png</file>
+        <file>silk/user_delete.png</file>
+        <file>silk/user_gray.png</file>
+        <file>silk/cog.png</file>
+        <file>silk/color_wheel.png</file>
+        <file>silk/cross.png</file>
+        <file>silk/disk.png</file>
+        <file>silk/disk_multiple.png</file>
+        <file>silk/package_go.png</file>
+        <file>silk/page_white_add.png</file>
+        <file>silk/page_white_put.png</file>
+        <file>silk/tab_go.png</file>
+        <file>silk/add.png</file>
+        <file>silk/delete.png</file>
+    </qresource>
+</RCC>
