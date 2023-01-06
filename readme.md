@@ -7,6 +7,7 @@ However, it takes a lot of time to create simple and elementary things, like a l
 And this program perfectly compensates for these shortcomings.
 ### Who will it be useful for?
 **Beginers** --- For many novice coders in the Lua language, it is really difficult sometimes to understand certain properties of this language. And mistakes may be made that are quite capable of withdrawing newcomers from the whole idea of the server.
+
 **Advanced** --- Even among experienced Lua users and coders, there are many people who feel dissatisfied and stressed when faced with such routine tasks, such as writing a config for servers, including adding weapons, ammunition, etc.
 ### How to use these?
 It's very simple:
